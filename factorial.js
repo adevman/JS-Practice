@@ -1,6 +1,9 @@
-var a = 5;
+function fact(a){
 var fac = 1;
 for (var i = 1; i <= a; i++) {
   fac = fac * i;
 }
-console.log(`Factorial of ${a} is:`, fac);
+return fac;
+}
+
+console.log(`Factorial is:`, fact(5));
